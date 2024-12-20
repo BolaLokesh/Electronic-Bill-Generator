@@ -1,0 +1,11 @@
+# Database Configuration (MySQL)
+spring.datasource.url=jdbc:mysql://localhost:3306/electric_bill_db
+spring.datasource.username=root
+spring.datasource.password=yourpassword
+spring.jpa.hibernate.ddl-auto=update  # Automatically updates the schema based on model changes
+spring.jpa.show-sql=true  # Logs SQL queries in the console
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect  # MySQL dialect for JPA
+
+# JSP Configuration
+spring.mvc.view.prefix=/WEB-INF/jsp/  # Path to the JSP files
+spring.mvc.view.suffix=.jsp  # File extension for JSP views
